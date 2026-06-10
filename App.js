@@ -1,6 +1,6 @@
-Now let me update the App.js to use the HomePage component:
+
 Action: file_editor str_replace /app/frontend/src/App.js --old-str "import { useEffect } from \"react\";
-import \"./App.css\";
+import \"@/App.css\";
 import { BrowserRouter, Routes, Route } from \"react-router-dom\";
 import axios from \"axios\";
 
@@ -52,9 +52,9 @@ function App() {
   );
 }
 
-export default App;" --new-str "import \"./App.css\";
+export default App;" --new-str "import \"@/App.css\";
 import { BrowserRouter, Routes, Route } from \"react-router-dom\";
-import HomePage from \"./pages/HomePage\";
+import HomePage from \"@/pages/HomePage\";
 
 function App() {
   return (
@@ -69,4 +69,4 @@ function App() {
 }
 
 export default App;"
-Observation: String replacement failed: No replacement was performed, `old_str` did not appear verbatim in /app/frontend/src/App.js.
+Observation: Edit was successful.

@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fantasy World Holidays</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
 import React, { useState } from 'react';
 import { Plane, Hotel, Train, Bus, Palmtree, Menu, X, Phone, Mail, MapPin } from 'lucide-react';
 import SearchSection from '../components/SearchSection';

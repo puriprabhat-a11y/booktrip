@@ -153,6 +153,11 @@ const HomePage = () => {
                 <li><a href="#" className="hover:text-white transition-colors">Train Booking</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Bus Booking</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Holiday Packages</a></li>
+                import SearchSection from './components/SearchSection'
+import OffersSection from './components/OffersSection'
+import PopularDestinations from './components/PopularDestinations'
+import HolidayPackages from './components/HolidayPackages'
+import FeaturesSection from './components/FeaturesSection'
               </ul>
             </div>
 
